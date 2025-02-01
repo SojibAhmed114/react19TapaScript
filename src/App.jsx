@@ -1,11 +1,12 @@
-import Banner from "./Components/Banner"
+import Boimela from "./Boimela"
+
 
 
 function App() {
 
   return (
     <>
-      <Banner/>
+      <Boimela/>
     </>
   )
 }
