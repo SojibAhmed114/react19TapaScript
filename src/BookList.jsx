@@ -34,14 +34,17 @@ function BookList() {
     },
   ];
   return (
-    <ul>
+    <ul className="space-y-3">
       {
-        books.map((book)=>(
-          <li key={book.id}><BookRow book={book}/></li>
-        ))
+      books.map((book) => (
+        <li key={book.id} 
+        className="flex items-center justify-between rounded-md shadow-md p-2 bg-white">
+          <BookRow book={book} />
+        </li>
+      ))
       }
     </ul>
-  )
+  );
 }
 
 export default BookList

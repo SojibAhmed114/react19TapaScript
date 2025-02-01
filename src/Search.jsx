@@ -1,7 +1,7 @@
 
 function Search() {
   return (
-    <div>Search</div>
+    <input type="text" placeholder="Search..." className="mb-2 rounded-md w-full border p-1" />
   )
 }
 
