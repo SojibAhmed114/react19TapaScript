@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 
 const BookRow = ({book}) => {
   return (
-    <div>
+    <>
       <BookDetails title={book.title} author={book.author} />
       <FeatureBook feature={book.feature} />
-    </div>
+    </>
   );
 }
 BookRow.propTypes = {
